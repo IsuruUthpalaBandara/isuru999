@@ -1,0 +1,55 @@
+.pic{
+    width:100%;
+    height: auto;
+
+}
+
+.home{
+    background-color: black;
+
+}
+
+
+
+.intro{
+    font-family: 'Arial', sans-serif;
+    margin-left:200px;
+    margin-top:200px;
+    font-size: 40px;
+    color:rgb(202, 202, 135);
+    text-align: left;
+    line-height: 50px;
+
+}
+
+
+
+.description{
+    color:rgb(66, 224, 66);
+    margin-left:200px;
+    margin-top:100px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 10px;
+}
+    
+.column1 {
+    float: left;
+    width: 40%;
+    padding:0;
+  }
+
+  .column2{
+    float: right;
+    width: 60%;
+    padding: 0;
+    
+  }
+  
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
