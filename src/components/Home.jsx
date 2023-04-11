@@ -2,11 +2,15 @@ import React from 'react'
 import pic from './isuru04.jpg'
 import "./Home.css"
 
+const maintenanceAlart=()=>{
+  alert("this page is under some maintenance work. most features might not work until fixed")
+}
 
 export default function Home() {
   
   return (
     <>
+    <maintenanceAlart/>
     <div id="home">
     <body class="home">
     
