@@ -1,5 +1,5 @@
 
-.projectsIntro{
+.skillsIntro{
     font-size: 35px;
     color: antiquewhite;
     padding-left:50px;
@@ -10,7 +10,7 @@
     margin:none;
   }
 
-  .projectsDetails{
+  .skillsDetails{
     margin-top:0px;
     font-size:17px;
     color:rgb(240, 235, 229);
@@ -38,5 +38,3 @@
   .cardLine{
     display:flex
   }
-
-  

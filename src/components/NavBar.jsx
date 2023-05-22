@@ -7,6 +7,7 @@ export default function NavBar() {
 
     <>
     <div class="navbar">
+            
         
             <AnchorLink href="#contacts"><button class="navbtn">Contacts</button></AnchorLink>
             <AnchorLink href="#about"> <button class="navbtn">About Me</button></AnchorLink>

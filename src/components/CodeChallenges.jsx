@@ -1,25 +1,27 @@
-import './Projects.css'
-import React from 'react'
-import pic from './isuru04.jpg'
+import './Skills.css'
 
-const Projects=()=>{
+
+import React from 'react'
+
+
+const CodeChallenges=()=>{
 
     return(
 
         <>
 
-<div id="projects">
-    <div class="projectsIntro">
+<div id="codechallenges">
+    <div class="skillsIntro">
 
-    Projects
+    Code Challenges
 
   </div>
 
-  <div class="projectsDetails">
+  <div class="skillsDetails">
 htfhgjdghmgmjhm
     </div>
 
-    <div class="projectRow">
+    <div class="skillsRow">
 
         <div class="cardLine">
 
@@ -70,4 +72,4 @@ theTourist
 
 }
 
-export default Projects
+export default CodeChallenges

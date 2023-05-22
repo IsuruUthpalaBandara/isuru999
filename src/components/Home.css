@@ -1,55 +1,49 @@
-.pic{
-    width:100%;
-    height: auto;
-
+img{
+  width:100%;
+  height:auto;
+  position:relative;
 }
 
-.home{
-    background-color: black;
-
-}
-
-
-
-.intro{
-    font-family: 'Arial', sans-serif;
-    margin-left:200px;
-    margin-top:200px;
-    font-size: 40px;
-    color:rgb(202, 202, 135);
-    text-align: left;
-    line-height: 50px;
-
-}
+.name{
+  color:whitesmoke;
+  font-size: 30px;
+  position:absolute;
+  top:250px;
+  left:350px;
 
 
 
-.description{
-    color:rgb(66, 224, 66);
-    margin-left:200px;
-    margin-top:100px;
-    font-size: 20px;
-    text-align: left;
-    line-height: 10px;
-}
+
     
-.column1 {
-    float: left;
-    width: 40%;
-    padding:0;
-  }
+}
 
-  .column2{
-    float: right;
-    width: 60%;
-    padding: 0;
-    
-  }
-  
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
+
+
+.shortDes{
+  color:rgb(202, 184, 18);
+  font-size:20px;
+  position:absolute;
+  top:300px;
+  left:350px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3s steps(25,end),
+    blink-caret 1s step-end infinite;
+}
+
+@keyframes typing{
+  from {width:0}
+  to {width:21%}
+
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}

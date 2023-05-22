@@ -1,29 +1,66 @@
 import React from 'react'
-import NavBar from './components/NavBar'
+import './Page.css'
 import Home from './components/Home'
 import About from './components/About'
-import Projects from './components/Projects'
 import Contacts from './components/Contacts'
+import Projects from './components/Projects'
+import Skills from './components/Skills'
+import CodeChallenges from './components/CodeChallenges'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-import Icons from './components/Icons'
+const Page=()=>{
 
 
-export default function Page() {
-  return (
-<>
-    <header><NavBar/></header>
-    <body>
-    <div>       
+  return(
+
+    <>
+     <div class="row">
+      <div class='col1'>
+
+        <div class="menuBar">
+
+        <div class="title">
+
+          Portfolio
+
+        </div>
+
+          <div class="menuBtnGrp">
+
+            <div><AnchorLink href="#home"><button class="menuBtn">Home</button></AnchorLink></div> 
+            <div><AnchorLink href="#about"><button class="menuBtn">About</button></AnchorLink></div>
+            <div><AnchorLink href="#skills"><button class="menuBtn">Skills</button></AnchorLink></div>
+            <div><AnchorLink href="#projects"><button class="menuBtn">Projects</button></AnchorLink></div>
+            <div><AnchorLink href="#codechallenges"><button class="menuBtn">Code Challenges</button></AnchorLink></div>
+            <div><AnchorLink href="#blog"><button class="menuBtn">Blog</button></AnchorLink></div>
+            <div><AnchorLink href="#contacts"><button class="menuBtn">Contacts</button></AnchorLink></div>
+
+          </div>
+
+        </div>
         
+
+      </div>
+      <div class="col2">
         <Home/>
-        <Projects/>
         <About/>
+        <Skills/>
+        <Projects/>
+        <CodeChallenges/>
+        
         <Contacts/>
-        <Icons/>
         
+      </div>
+
         
-    </div>
-    </body>
+
+
+     </div>
+     <footer style={{backgroundColor:'black', color:'white', textAlign:'center'}}>Designed and Created by Isuru Uthpala Bandara 2023</footer>
+
     </>
+
   )
 }
+
+export default Page

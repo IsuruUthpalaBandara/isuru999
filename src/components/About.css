@@ -1,24 +1,24 @@
 
 .aboutIntro{
-    font-size: 40px;
+    font-size: 35px;
     color: antiquewhite;
     padding-left:50px;
     padding-top:40px;
     padding-bottom:0px;
     width: 100%;
-    background-color: black;
+    background-color: none;
     margin:none;
   }
 
   .aboutDes{
     margin-top:0px;
-    font-size:18px;
-    color:rgb(124, 118, 111);
+    font-size:17px;
+    color:rgb(240, 235, 229);
     padding-top:40px;
     padding-left:50px;
     padding-bottom:50px;
     text-align: left;
-    background-color: black;
+    background-color: none;
     width:100%;
     line-height: 10px;
   }
