@@ -10,6 +10,8 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Page=()=>{
 
+  //window.onload(alert("this page is still under testing condition. Some features may not work and won't be responsive. Full page will be updated soon. Thank you for reading my portfolio - Isuru Uthpala Bandara"))
+
 
   return(
 
