@@ -27,11 +27,11 @@
   .card{
     border-radius: 10px;
     border-color: solid 1px blanchedalmond;
-    width:200px;
-    height:275px;
+    width:100px;
+    height:110px;
     background-color: ghostwhite;
-    margin-left:50px;
-    margin-bottom:50px;
+    margin-left:20px;
+    margin-bottom:20px;
     text-align: center;
     padding:40px;
 

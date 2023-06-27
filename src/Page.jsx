@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import CodeChallenges from './components/CodeChallenges'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import profilePic from './Picture1.jpg'
 
 const Page=()=>{
 
@@ -24,6 +25,13 @@ const Page=()=>{
         <div class="title">
 
           Portfolio
+
+        </div>
+
+        <div >
+
+          <img src={profilePic} alt='profile pic' class='profilePic'/>
+
 
         </div>
 

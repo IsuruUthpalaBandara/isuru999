@@ -13,7 +13,9 @@ export default function Contacts() {
 
   <div class="contactDetails">
     
-      eisuruuthpala@gmail.com
+     <div>eisuruuthpala@gmail.com </div> 
+     <div>+94 76 3636 608</div>
+
     
 
   </div>
