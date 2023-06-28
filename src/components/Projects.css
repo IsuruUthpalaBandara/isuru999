@@ -24,19 +24,24 @@
   }
 
 
-  .card{
+  .project_card{
     border-radius: 10px;
-    border-color: solid 1px rgb(148, 173, 173);
-    width:250px;
-    height:300px;
-    background-color: aqua;
-    margin-left:50px;
-    margin-bottom:50px;
+    border-color: solid 1px blanchedalmond;
+    width:100px;
+    height:110px;
+    background-color: ghostwhite;
+    margin-left:20px;
+    margin-bottom:20px;
     text-align: center;
+    padding:40px;
+  }
+
+  .project_card:hover{
+    transform: scale(1.1);
   }
 
   .cardLine{
     display:flex
   }
 
-  
+

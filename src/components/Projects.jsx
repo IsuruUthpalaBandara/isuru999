@@ -1,6 +1,5 @@
 import './Projects.css'
 import React from 'react'
-import pic from './isuru04.jpg'
 
 const Projects=()=>{
 
@@ -29,19 +28,24 @@ const Projects=()=>{
 
         <div class="cardLine">
 
-            <div class="card">
+            <div class="project_card">
+
+                
 
                 BugTracker
+               
+
+                
 
             </div>
 
-            <div class="card">
+            <div class="project_card">
 
 QuickCV
 
 </div>
 
-<div class="card">
+<div class="project_card">
 
 theTourist
 
