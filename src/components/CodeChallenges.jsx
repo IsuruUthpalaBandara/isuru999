@@ -20,7 +20,7 @@ const CodeChallenges=()=>{
   <div class="skillsDetails">
 
   <p>I have completed few code challenges found in the internet here and I completed them with some</p>
-  <p>creative front end and GUI. Click below to find more...</p>
+  <p>front end  GUI. Click below to find more...</p>
 
 
     </div>
@@ -29,19 +29,19 @@ const CodeChallenges=()=>{
 
         <div class="cardLine">
 
-            <div class="card">
+            <div class="ch_card">
 
                 BugTracker
 
             </div>
 
-            <div class="card">
+            <div class="ch_card">
 
 QuickCV
 
 </div>
 
-<div class="card">
+<div class="ch_card">
 
 theTourist
 

@@ -41,3 +41,21 @@
   .cardLine{
     display:flex
   }
+
+
+  .ch_card{
+    border-radius: 10px;
+    border-color: solid 1px blanchedalmond;
+    width:100px;
+    height:110px;
+    background-color: ghostwhite;
+    margin-left:20px;
+    margin-bottom:20px;
+    text-align: center;
+    padding:40px;
+
+  }
+
+  .ch_card:hover{
+    transform:scale(1.1);
+  }

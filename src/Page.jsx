@@ -42,7 +42,6 @@ const Page=()=>{
             <div><AnchorLink href="#skills"><button class="menuBtn">Skills</button></AnchorLink></div>
             <div><AnchorLink href="#projects"><button class="menuBtn">Projects</button></AnchorLink></div>
             <div><AnchorLink href="#codechallenges"><button class="menuBtn">Code Challenges</button></AnchorLink></div>
-            <div><AnchorLink href="#blog"><button class="menuBtn">Blog</button></AnchorLink></div>
             <div><AnchorLink href="#contacts"><button class="menuBtn">Contacts</button></AnchorLink></div>
 
           </div>

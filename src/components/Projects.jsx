@@ -1,7 +1,14 @@
 import './Projects.css'
+import {useNavigate} from 'react-router-dom'
 import React from 'react'
+import bugTrackerLogo from '../projects/logos/bug.png'
+import quickCVLogo from '../projects/logos/quickCVLogo.png'
+import touristLogo from '../projects/logos/touristLogo.png'
+
 
 const Projects=()=>{
+
+    const navigate = useNavigate()
 
     return(
 
@@ -27,29 +34,30 @@ const Projects=()=>{
     <div class="projectRow">
 
         <div class="cardLine">
+            
 
-            <div class="project_card">
 
-                
-
+            <div class="project_card" onClick={()=>navigate('/projects/bugtracker')}>
+            <img src={bugTrackerLogo} alt="logo"/>
                 BugTracker
-               
+            </div>
 
-                
+            <div class="project_card" onClick={()=>navigate('/projects/quickcv')}>
+            <img src={quickCVLogo} alt="logo"/>
+                QuickCV
 
             </div>
 
-            <div class="project_card">
 
-QuickCV
 
-</div>
-
-<div class="project_card">
-
+<div class="project_card" onClick={()=>navigate('/projects/tourist')}>
+<img src={touristLogo} alt="logo"/>
 theTourist
 
 </div>
+
+
+
 
 
 

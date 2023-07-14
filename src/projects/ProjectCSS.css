@@ -1,0 +1,19 @@
+.projectTitle{
+    margin-top:40px;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.projectDes{
+    font-size:15px;
+    margin-left: 40px;
+    line-height: 5px;
+    text-align: left;
+
+}
+
+.projectLinks{
+    font-size:20px;
+    margin-left:40px;
+    color:purple;
+}
