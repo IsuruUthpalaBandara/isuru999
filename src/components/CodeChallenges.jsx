@@ -1,10 +1,13 @@
 import './Skills.css'
+import { useNavigate } from 'react-router-dom'
 
 
 import React from 'react'
 
 
 const CodeChallenges=()=>{
+
+    const navigate = useNavigate()
 
     return(
 
@@ -29,21 +32,21 @@ const CodeChallenges=()=>{
 
         <div class="cardLine">
 
-            <div class="ch_card">
+            <div class="ch_card" onClick={()=>navigate("/codechallenges/ceasarscipher")}>
 
-                BugTracker
+                Ceasars Cipher
 
             </div>
 
             <div class="ch_card">
 
-QuickCV
+Challenge2
 
 </div>
 
 <div class="ch_card">
 
-theTourist
+Challenge2
 
 </div>
 

@@ -35,8 +35,6 @@ const Projects=()=>{
 
         <div class="cardLine">
             
-
-
             <div class="project_card" onClick={()=>navigate('/projects/bugtracker')}>
             <img src={bugTrackerLogo} alt="logo"/>
                 BugTracker
@@ -47,8 +45,6 @@ const Projects=()=>{
                 QuickCV
 
             </div>
-
-
 
 <div class="project_card" onClick={()=>navigate('/projects/tourist')}>
 <img src={touristLogo} alt="logo"/>

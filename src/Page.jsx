@@ -65,7 +65,7 @@ const Page=()=>{
 
 
      </div>
-     <footer style={{backgroundColor:'black', color:'white', textAlign:'center'}}>Designed and Created by Isuru Uthpala Bandara 2023</footer>
+     <footer style={{backgroundColor:'rgb(29, 28, 28)', color:'white', textAlign:'center'}}>Designed and Created by Isuru Uthpala Bandara 2023</footer>
 
     </>
 

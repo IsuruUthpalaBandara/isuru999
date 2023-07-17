@@ -6,13 +6,13 @@
 .col1{
     flex:15%;
     background-color: black;
-    height:3250px;
+    height:2900px;
 }
 
 .col2{
     flex:85%;
     background-color: rgb(153, 153, 116);
-    height: 3250px;
+    height: 2900px;
 }
 
 .title{

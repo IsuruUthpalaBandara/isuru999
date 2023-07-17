@@ -4,7 +4,7 @@ import BugTracker from './projects/BugTracker'
 import QuickCV from './projects/QuickCV'
 import Tourist from './projects/Tourist'
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
-
+import CeasarsCipher from './components/challenges/CeasarsCipher'
 
 function App() {
   return (
@@ -18,8 +18,15 @@ function App() {
         <Route exact path="/projects/quickcv" element={<QuickCV/>}/>
         <Route exact path="/projects/tourist" element={<Tourist/>}/>
       </Routes>
+
+      <Routes>
+     
+      <Route exact path="/codechallenges/ceasarscipher" element={<CeasarsCipher/>}/>
+
+    </Routes>
       </BrowserRouter>
       </>
+
 
       
 
