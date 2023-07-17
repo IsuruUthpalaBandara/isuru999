@@ -11,15 +11,15 @@ export default function BugTracker() {
       <p>needs to sign up first and then to log in to start</p>
       <p>a new project. Then the bugs can be recorded and </p>
       <p>the bug status can be modified. A group of developers</p>
-      <p>can record the bugsin the same project so that all </p>
-      <p>the team can monitor the bugs tracked and their </p>
+      <p>can record the bugs in the same project so that all </p>
+      <p>team members can monitor the bugs tracked and their </p>
       <p>current status. The project has a backend written </p>
       <p>using Node.Js and Express.Js. The databse is mySQL.</p>
       <p>Once you logged in, the authentication token expires</p>
-      <p>afer certain time. For the frontend the AntDesign</p>
-      <p>GUI library has been used. You can check the working</p>
+      <p>after certain time. For the frontend, the AntDesign</p>
+      <p>UI library has been used. You can check the working</p>
       <p>app, its codes, the server code and other details by</p>
-      <p>clicking the links.</p>
+      <p>clicking below buttons.</p>
     </div>
 
     
