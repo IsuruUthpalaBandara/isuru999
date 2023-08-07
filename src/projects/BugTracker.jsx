@@ -23,7 +23,7 @@ export default function BugTracker() {
     </div>
 
     
-    <div class="projectLinks"><a href="https://bug-tracker-le5z.vercel.app/"><button>open app bugTracker</button></a></div>
+    <div class="projectLinks"><a href="https://bug-tracker-gfiz.vercel.app/"><button>open app bugTracker</button></a></div>
     <div class="projectLinks"><a href="https://github.com/IsuruUthpalaBandara/BugTracker"><button>gitHub repo (bugTracker - frontend)</button> </a></div>
     <div class="projectLinks"><a href="https://github.com/IsuruUthpalaBandara/bugServer"><button>gitHub repo (bugTracker - server) </button></a></div>
     </>
